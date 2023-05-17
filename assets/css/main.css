@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+h3{
+    font-size: 36px;
+}
+h5{
+    font-size: 18px;
+}
+p{
+  font-size: 15px;
+
+}
+.header{
+    width: 100%;
+    padding-bottom: 50px;
+    background-color:#F44336 ;
+}
+.menu__list{
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+   
+ 
+}
+.menu__list  .active a{
+    background-color: white;
+    color: black;
+  
+}
+   
+
+.menu__list li a{
+    display: block;
+    color: white;
+    font-size: 18px;
+
+   padding-left: 10px;
+   padding: 15px 25px;
+
+
+}
+.menu__list li a:hover{
+    color: black;
+    background-color: white;
+}
+.menu__list  .active a:hover{
+    background-color: #cccccc;
+}
+.heading{
+    color: white;
+    font-size:64px ;
+    text-align: center;
+    margin-top: 128px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.template{
+    font-size: 24px;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+.btn{
+    display:block;
+    color: white;
+    font-size: 18px;
+    width: 150px;
+    height: 51px;
+    background-color: black;
+    text-align: center;
+    line-height: 51px;
+    margin: 50px auto ;
+ 
+ 
+}
+.btn:hover{
+    background-color: #cccccc;
+    color: black;
+
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.about__boxes{
+    margin-top: 70px;
+    display: flex;
+  
+   
+    
+}
+.about__box{
+    width: 652px;
+}
+
+    
+
+.about__box h5{
+    margin-top: 50px;
+    line-height: 27px;
+    color: rgb(37, 36, 36);
+    font-size: 16px;
+}
+.about__box p{
+    margin-top: 40px;
+    line-height: 22.5px;
+    color:#757575
+}
+.icon__box i{
+    margin-top: 40px;
+    font-size: 200px;
+    color:#F44336;
+   
+    padding-left: 50px;
+   
+} 
+.format{
+    margin-top: 50px;
+    background-color: #d1cccc;
+    
+}
+.format__boxes{
+  padding-top: 70px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 70px;
+   
+}
+.format__box{
+    width: 653px;
+    padding-left: 60px;
+}
+.coffe__icon{
+    font-size: 200px;
+   
+    color: #F44336;
+}
+
+.format__box h5{
+    font-size: 15px;
+    padding-top: 40px;
+    color: rgb(27, 27, 27)
+}
+.format__box p{
+    color: #757575;
+   padding-top: 40px;
+    
+}
+.quote{
+    background-color: rgb(109, 109, 109);
+}
+.quote p{
+    color: white;
+padding: 80px  ;
+text-align: center;
+font-size: 22px;
+}
+.footer__boxes{
+    color: rgb(131, 127, 127);
+    padding: 70px;
+    text-align: center;
+}
+.author{
+    color: rgb(131, 127, 127); 
+    text-align: center;
+    padding-bottom: 70px;
+}
